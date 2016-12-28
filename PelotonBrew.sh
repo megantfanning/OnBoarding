@@ -5,6 +5,7 @@ sudo /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/i
 brew cask install google-chrome
 brew cask install caffeine
 brew cask install atom
+brew install node
 brew cask install dropbox
 brew cask install google-drive
 brew cask install slack
@@ -16,7 +17,6 @@ brew cask install 1password
 brew install node
 brew install wget
 brew cask install vlc
-brew cask install spotify
 
 
 #docker for mac does not have a homebrew cask yet
@@ -38,6 +38,7 @@ Docker pull plugins/slack-blame
 brew install bash-completion
 brew tap homebrew/completions
 echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
+#consider brew install zsh
 
 # cleanup
 brew cleanup --force
